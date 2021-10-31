@@ -18,8 +18,3 @@ Route::get('/', function () {
 });
 
 
-Route::get('/contact',[TaskController::class,'index'] {
-
-
-    return view('contact', compact('tasks'));
-});
