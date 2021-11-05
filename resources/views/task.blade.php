@@ -8,15 +8,7 @@
 </head>
 <body>
 
-
-  <ul>
- 
-    @foreach ($tasks as $index=>$task)
-    <li><a href="contact/{{$task->id}}">{{$task->name}}</a></li>
-    
-     @endforeach
-
-</ul>
+<h1 align="center">{{$task->name}}</h1>
 
 </body>
 </html>
